@@ -11,6 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media (max-width:1250px) {
+  .profile-container{
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 880px) {
   .product{
     flex-direction: column;
@@ -28,6 +35,9 @@ code {
 @media (max-width: 800px) {
   .socialmedia-post {
     grid-template-columns: repeat(2, 200px);
+  }
+  .profile-container{
+    flex-direction: column;
   }
 } 
 

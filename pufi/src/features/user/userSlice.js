@@ -1,4 +1,4 @@
-import { /* createAsyncThunk, */ createSlice } from "@reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   cart : [],
@@ -13,16 +13,16 @@ export const userSlice = createSlice({
       state.cart.push(action.payload)
     },
     removeProduct : (state, action) => {
-      state.cart.filter((product) => {
-        return product.id !== action.payload
+      state.cart = state.cart.filter((product) => {
+        return product.id !== Number(action.payload)
       })
     },
     addFavourite : (state, action) => {
       state.favourites.push(action.payload)
     },
     removeFavourite : (state, action) => {
-      state.favourites.filter((product) => {
-        return product.id !== action.payload
+      state.favourites.filter((productId) => {
+        return productId !== action.payload
       })
     }
   }
