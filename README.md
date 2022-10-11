@@ -62,4 +62,4 @@ el enlace 'mi cuenta' de la barra de navegación redirige al perfil del usuario,
 Enlace de deploy de la prueba:
 https://puffiapppls.vercel.app/
 
-observación: en mobíl no está el botón que permite añadir productos al carrito.
+observación: en movíl no está el botón que permite añadir productos al carrito.
