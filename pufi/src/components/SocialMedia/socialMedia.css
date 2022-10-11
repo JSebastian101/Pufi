@@ -1,0 +1,24 @@
+.socialmedia-container{
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.socialmedia-container > p {
+  font-size: .8rem;
+  margin: 50px 0 0 0;
+  color: gray;
+}
+.socialmedia-container > h2 {
+  margin: 10px 0 0px 0;
+  font-weight: lighter;
+}
+.socialmedia-post {
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 200px) ;
+  column-gap: 1px;
+  row-gap: 1px;
+}

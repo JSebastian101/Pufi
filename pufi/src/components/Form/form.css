@@ -1,0 +1,23 @@
+.newsletter-form{
+  width: 100%;
+}
+.input-container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.newsletter-input {
+  margin: 10px 0px 15px 0px ;
+  padding: 5px;
+  width: 60%;
+}
+.newsletter-button {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20%;
+}
