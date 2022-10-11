@@ -56,3 +56,10 @@ el enlace 'mi cuenta' de la barra de navegación redirige al perfil del usuario,
 - boton para eliminar productos del carrito
 
 ![](https://i.postimg.cc/dtkvyPV2/profile.png)
+
+----
+
+Enlace de deploy de la prueba:
+https://puffiapppls.vercel.app/
+
+observación: en mobíl no está el botón que permite añadir productos al carrito.
