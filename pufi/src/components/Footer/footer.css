@@ -16,7 +16,8 @@
   color: black;
   font-size: .9rem;
 }
-.footer-container hr {
+.line {
+  margin: 0;
  width: 1.2px;
  height: 40%;
  background-color: rgba(128, 128, 128, 0.792);

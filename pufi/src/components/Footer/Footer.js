@@ -11,14 +11,14 @@ const Footer = () => {
         <li><a href='#'>Paris</a></li>
         <li><a href='#'>Tokio</a></li>
       </ul>
-      <hr/>
+      <hr className='line'/>
       <ul className='footer-list'>
        <li><a href='#'>Contacto</a></li> 
        <li><a href='#'>Ayuda</a></li> 
        <li><a href='#'>Cómo comprar</a></li> 
        <li><a href='#'>Términos & condiciones</a></li> 
       </ul>
-      <hr/>
+      <hr className='line'/>
       <div className='footer-social'>
         <p>Seguinos en</p>
         <div className='social-media'>
